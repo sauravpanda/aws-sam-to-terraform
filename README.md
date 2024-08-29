@@ -20,7 +20,7 @@ This project provides a tool to convert AWS Serverless Application Model (SAM) t
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/aws-sam-to-terraform.git
+   git clone https://github.com/sauravpanda/aws-sam-to-terraform.git
    cd aws-sam-to-terraform
    ```
 
@@ -35,7 +35,7 @@ This project provides a tool to convert AWS Serverless Application Model (SAM) t
 
 2. Run the converter:
    ```
-   poetry run sam-to-terraform sam_template.yaml
+   poetry run sam2terra/converter.py sam_template.yaml
    ```
 
 3. Check the `terraform_output` directory for the generated Terraform files.
